@@ -67,7 +67,7 @@ def main():
         episode_reward = 0
 
         for timestep in range(1, max_steps_per_episode):
-            #env.render()  # this shows the attempts made by the agent (slows down training)
+            env.render()  # this shows the attempts made by the agent (slows down training)
             frame_count += 1
 
             # if the agent should explore
